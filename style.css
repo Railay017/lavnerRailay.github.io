@@ -59,7 +59,7 @@ article,
 aside,
 footer,
 section {
-  background-color: pink;
+  style="background-color: pink;"
   padding: 1%;
 }
 
