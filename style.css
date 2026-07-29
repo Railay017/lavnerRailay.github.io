@@ -98,7 +98,7 @@ nav li {
 nav a {
   font-size: 2rem;
   text-transform: uppercase;
-  text-decoration: none;
+  text-decoration: underline;
   color: black;
 }
 
