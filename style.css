@@ -2,7 +2,7 @@
 
 body {
   margin: 0;
-  font-family: "Comic Sans MS", cursive;
+  font-family: "Roboto Condensed", cursive;
 }
 
 html {
@@ -20,14 +20,14 @@ body {
 
 h1,
 h2 {
-  font-family: "Comic Sans MS", cursive;
+  font-family: "Roboto Condensed", cursive;
   color: #2a2a2a;
 }
 
 p,
 li,
 a {
-  font-family: "Comic Sans MS", cursive;
+  font-family: "Roboto Condensed", cursive;
   color: #2a2a2a;
 }
 
