@@ -2,7 +2,7 @@
 
 body {
   margin: 0;
-  font-family: "Brush Script MT", cursive;
+  font-family: "Comic Sans MS", cursive;
 }
 
 html {
@@ -20,13 +20,14 @@ body {
 
 h1,
 h2 {
-  font-family: "Brush Script MT", cursive;
+  font-family: "Comic Sans MS", cursive;
   color: #2a2a2a;
 }
 
 p,
-li {
-  font-family: "Brush Script MT", sans-serif;
+li,
+a {
+  font-family: "Comic Sans MS", cursive;
   color: #2a2a2a;
 }
 
@@ -78,8 +79,15 @@ header img {
 
 nav ul {
   padding: 0;
+  margin: 0;
   list-style-type: none;
   display: flex;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 nav li {
