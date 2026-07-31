@@ -111,25 +111,37 @@ nav a:focus {
 
 main {
   display: flex;
-  gap: 10px;
+  gap: 20px;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+article,
+aside {
+  flex: 1 1 45%;
+  min-width: 320px;
 }
 
 article {
-  flex: 4;
+  max-width: 700px;
 }
 
 aside {
-  flex: 1;
+  max-width: 500px;
 }
 
 aside a {
   display: block;
-  float: left;
   width: 100%;
+  margin-bottom: 12px;
 }
 
 aside img {
-  max-width: 25%;
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
 }
 
 footer {
